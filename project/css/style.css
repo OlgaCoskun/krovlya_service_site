@@ -1,0 +1,153 @@
+ body {
+        font-family: 'Roboto Condensed', arial;
+        font-size: 22px;
+    background: url(../img/fon.jpg) no-repeat;
+    background-size: 1234px 789px;
+    background-position: top center;
+}
+
+
+h3{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #000000;
+}
+h1{
+    font-size: 60px;
+    color: #025b94;
+}
+h4{
+   font-size: 30px; 
+   color: #000000;
+}
+h2 {
+    font-size: 30px;
+    color: #025b94;
+    text-align: center;
+}
+h5 {
+    font-size: 20px;
+    color: #025b94;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #000000;
+}
+
+#t{
+color:  #000000;
+font-size: 30px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+.free {
+color:  #fb0214;
+text-transform: uppercase;
+}
+.nofree {
+    text-transform: uppercase;
+}
+
+#zav {
+border-radius: 15px;
+border-width: 3px;
+border-color:  rgba(199,219,245,0.5);
+background-color: rgba(199,219,245,0.5);
+/*opacity: 0.54;*/
+width: 570px;
+height: 395px;
+margin-left: auto;
+margin-right: auto;
+}
+#z {
+    padding-top: 20px;
+}
+
+.form-horizontal {
+    padding-top: 10px;
+}
+
+#why {
+    margin-top: 150px;
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6 {
+    height: 350px;
+    border: 3px solid #025b94;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.fig {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#end {
+    padding-right: 0px;
+    padding-left: 0px;
+    background: #025b94;
+}
+
+.container-fluid {
+    background: #025b94;
+    font-size: 20px;
+    color: #000000;
+    width: 1000px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+}
+
+#fot1, #fot2, #fot3 {
+    width: 330px;
+    margin-top: 10px;
+}
+#zp {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#blok {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;   
+}
+
+
+/*Large DEvices, Wide Screens*/
+@media only screen and (max-width: 1200px) {
+   
+
+}
+
+}
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992 px) {
+    
+
+}
+ 
+}
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+
+
+}
+  
+    
+}
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+
+    
+}
